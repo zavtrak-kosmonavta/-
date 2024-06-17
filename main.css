@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     bottom:0;
+    box-sizing: border-box;
 }
 .wrapper{
     width: 900px;
@@ -11,19 +12,25 @@
     margin: 0 auto;
 }
 .box{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: inline-block;
     padding: 20px;
     margin: 25px;
-    border:5px solid#ddafff
+    border:5px solid#ddafff;
+    line-height:  200px;
+    text-align: center;
+    overflow: hidden;
 }
 .box1{
     background-color: #ffd5f9;
+    border-radius: 125px 0 0 50%;
 }
 .box2{
     background-color: #a6e0ff;
+    border-radius: 100% 0 0 0
 }
 .box3{
     background-color: #c3ffad;
+    border-radius: 0 100% 0 100%
 }
